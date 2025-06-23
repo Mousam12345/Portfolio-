@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mausam Thakur</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/ca5a9a194d.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Logo.png" class="Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer in Progress | Tech Enthusiast</p>
+                <h1>Hello, I'm <span>Mausam Thakur</span><br>
+                Turning ideas into real-world applications through logic and innovation.</h1>
+            </div>
+        </div>
+    </div>
+<!---------------------------- About ME ---------------------->
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="Mausam.png">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>
+          I am in the final phase of my B.Tech in Information Technology at MIT ADT University, Pune. I’m a
+          self-motivated individual with a strong foundation in software development, data structures, and
+          system design. I strive to contribute to impactful technology solutions through continuous learning,
+          effective collaboration, and a commitment to excellence in every project I undertake.
+        </p>
+
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('tools/lang')">Tools/Lang</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Java</span><br>Strong hands-on experience with Java and problem-solving proficiency.</li>
+            <li><span>Web Development</span><br>Proficient in developing responsive and user-focused web applications.</li>
+            <li><span>MongoDB</span><br>Solid understanding and practical experience with NoSQL databases.</li>
+            <li><span>Spring Boot</span><br>Experience in building RESTful APIs and backend systems using Spring Boot and Java.</li>
+            <li><span>UI/UX</span><br>Hands-on experience in designing user interfaces using tools like Canva, Figma, and Blender.</li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="tools/lang">
+          <ul>
+            <li><span>Computer Networking</span><br>Understanding of network protocols, configurations, and troubleshooting.</li>
+            <li><span>OOP (Object-Oriented Programming)</span><br>Proficient in principles like inheritance, encapsulation, polymorphism, and abstraction.</li>
+            <li><span>Data Structures & Algorithms (DSA)</span><br>Strong knowledge in optimizing and solving problems through DSA.</li>
+            <li><span>SQL</span><br>Skilled in writing complex queries and managing relational databases.</li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>2021 – Present</span><br>Gained experience in software development, cloud computing, GitHub, AI/ML, IoT, and networking through academic and personal projects.</li>
+            <li><span>2019 – 2021</span><br>Focused on core programming and electronics fundamentals during diploma studies.</li>
+            <li><span>2016 – 2018</span><br>Explored foundational computing concepts and general technical awareness.</li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>2022 – 2025</span><br>B.Tech – Information Technology, MIT ADT School of Engineering, Pune</li>
+            <li><span>2019 – 2022</span><br>Diploma in Electronics and Telecommunication, MIT Polytechnic, Pune</li>
+            <li><span>2019</span><br>SSC – Kai Dada Raw Karad Vidyalaya, Ambajogai, Latur</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!------------------services--------------->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">Technical Skills</h1>
+    <div class="services-list">
+
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Programming Languages</h2>
+        <p>Proficient in Java and Python with strong foundations in OOP and Data Structures & Algorithms (DSA).</p>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-database"></i>
+        <h2>Databases & Backend</h2>
+        <p>Experience with SQL, MongoDB, and backend development using Spring Boot for RESTful APIs and server-side logic.</p>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-network-wired"></i>
+        <h2>Networking & Cloud</h2>
+        <p>Knowledge of computer networking concepts and hands-on experience with the AWS Cloud platform for scalable applications.</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!----------------------------projects------------------->
+<div id="projects">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+
+      <div class="work">
+        <img src="swe.png">
+        <div class="layer">
+          <h3>Sewer Management System (ML + IoT)</h3>
+          <p>Developed a smart manhole detection system using real-time sensor data and ML to reduce sewer overflows and enhance worker safety.</p>
+           <a href="https://abhivruddhi.mituniversity.ac.in/wp-content/uploads/2023/08/FRICAS-National-Conferrence-IEEE.pdf" target="_blank">
+            <i class="fa-solid fa-up-right-from-square"></i>
+           </a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="Deepfake  Online Fraud928x528.jpg">
+        <div class="layer">
+          <h3>Countering Deep Fakes with Blockchain</h3>
+          <p>Designed a decentralized system leveraging blockchain to verify video authenticity and combat misinformation using secure, immutable records.</p>
+          <a href="https://ijirt.org/assets/ijirthome/pdf/hardcopy/Confirmation-Letter-Sample.pdf" target="_blank">
+            <i class="fa-solid fa-up-right-from-square"></i>
+           </a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="Build.webp">
+        <div class="layer">
+          <h3>MAHACOAST Travel Platform</h3>
+          <p>A web and mobile-friendly platform offering real-time beach safety, weather data, and tourism support for coastal Maharashtra using responsive design and APIs.</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+
+
+
+<!----------------------- certification------------------------------>
+<div id="certifications">
+  <div class="container">
+    <h1 class="sub-title">Certifications</h1>
+    <div class="services-list">
+      
+      <div>
+        <h2>Research Publication – IJSREM</h2>
+         <p>Published a paper on smart crop monitoring and control system for climate-sensitive agriculture. Explored IoT sensors and automation in greenhouse farming.</p>
+         <a href="e- Certificate IJSREM.com Mousam Thakur.pdf" target="_blank">Verify Certificate</a>
+      </div>
+
+      <div>
+        <h2>Azure Fundamentals</h2>
+        <p>Earned Microsoft Azure Fundamentals certification. Gained foundational knowledge of cloud services, Azure core concepts, and pricing models.</p>
+        <a href="Mausamkumari_Azure Fundamentals.pdf" target="_blank">Verify Certificate</a>
+      </div>
+
+      <div>
+        <h2>AWS S3 Basics – Coursera</h2>
+        <p>Completed an online project on AWS S3 storage architecture, permissions, buckets, and object-level configuration.</p>
+        <a href="AWS S3 Basics.pdf" target="_blank">Verify Certificate</a>
+      </div>
+
+      <div>
+        <h2>Power BI: Dashboards for Beginners</h2>
+        <p>Completed a beginner course on Microsoft Power BI. Learned to design interactive dashboards and visualize data for better decision-making.</p>
+        <a href="CertificateOfCompletion_Power BI Dashboards for Beginners.pdf" target="_blank">Verify Certificate</a>
+        <!-- No link provided for this cert, optional to add -->
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!--------------------------contact------------------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> thakurmousam13@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 9730127364</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/mousam-thakur-81471b291/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="Mausam kumari.pdf" download class="btn btn2">Downlod CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2" >Submit</button>
+                </form>
+
+                
+                <span id="msg">Hello</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Mousam. Made by <i class="fa-solid fa-heart"></i> Me</p>
+    </div>
+</div>
+
+
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx8UT_-FoZlNOumsDSMLt2r5iziM-n9F0vSgFZIezDJJpf8dTSP1dYzQmx_B-wCI0RCKw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
